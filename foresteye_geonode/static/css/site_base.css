@@ -1,50 +1,65 @@
 .nav-box {
-background: #386638;
+	background: #386638;
 }
 .navbar .navbar-inner {
-background: #b6c931;
+	background: #b6c931;
+	color: #FFF;
+	text-transform: none;
+}
+
+.nav-logo {
+    width: 82px;
+    height: 100px;
+    background: url(../img/logo.png) no-repeat;
+}
+
+.place-left {
+	float: left;
+}
+
+.place-right {
+	float: right;
+}
+
+.span9 {
+	width: 500px;
+	float: right;
+}
+
+.nav-box {
+	background: #386638;
+	width: 500px;
+	float: right;
 }
 
 footer.footer {
-background: #386638;
+	background: #b6c931;
 }
 
 #slide-pane h2 {
-font-size: 14px;
-color: #FFF;
-background-color: #386638;
-text-transform: none;
+	font-size: 14px;
+	color: #FFF;
+	background-color: #b6c931;
+	text-transform: none;
 }
 
 a:hover, a:focus {
-color: #3B49B3;
-text-decoration: underline;
+	color: #3B49B3;
+	text-decoration: underline;
 }
 
 a {
-color: #3B49B3;
-text-decoration: none;
+	color: #3B49B3;
+	text-decoration: none;
 }
 
 .btn-group>.btn, .btn-group>.dropdown-menu, .btn-group>.popover {
-font-size: 14px;
+	font-size: 14px;
 }
 
 .language {
-background: transparent;
-color: white;
-margin-bottom: -20px;
-padding: 0;
-}
-
-.nav>li>a.login {
-background: #da4f49;
-border: 1px solid #a31616;
-font-size: .875em;
-font-weight: 600;
-margin-bottom: 8px;
-margin-top: 5px;
-margin-right: 0;
-padding: 3px 10px 2px;
-text-transform: none;
+	background: transparent;
+	color: b6c931;
+	margin-bottom: -20px;
+	padding: 0;
 }
