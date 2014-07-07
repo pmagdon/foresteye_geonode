@@ -19,10 +19,10 @@
       <div class="intro">
         <p>
           {% blocktrans %}
-           Welcome to the WebGIS of <a href="http://www.uni-goettingen.de/en/310995.html">CRC</a>.
+           to the WebGIS of <a href="http://www.uni-goettingen.de/en/310995.html">CRC 990</a>.
           {% endblocktrans %}
         </p>
-        <span>{% trans 'Need help' %} <a href="http://docs.geonode.org/en/latest/tutorials/users/quickstart/index.html">{% trans 'Getting Started?' %}</a></span>
+        
       </div>
       <div class="btns">
         <a class="btn btn-large" href="{% url "layer_browse" %}">
@@ -52,11 +52,11 @@
             <h2>{% trans "Contribute" %}</h2>
             <p class="main-actions">
             {% blocktrans %}
-              GeoNode enables you to upload, manage, and browse data layers. Search for data that is valuable to you, or upload your own data. 
+              upload, manage, and browse data layers. Search for data that is valuable to you, or upload your own data. 
             {% endblocktrans %}
               <a href="{% url "data_upload" %}" class="btn btn-large">{% trans 'Upload Layers' %}</a>
             {% blocktrans %}
-              GeoNode enables you to compose and share maps. Create a map with our cartography tool, or explore maps shared by others. 
+              compose and share maps. Create a map with our cartography tool, or explore maps shared by others. 
             {% endblocktrans %}
               <a href="{% url "new_map" %}" class="btn btn-large">{% trans 'Create a Map' %}</a>
             </p>

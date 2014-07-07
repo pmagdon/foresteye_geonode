@@ -1,7 +1,27 @@
-body {
-  background:#FFFFFF;
-  font-family: @font-family-sans-serif;
-  font-size: @font-size-base;
-  padding-top: 50px;
+.nav-box {
+background: #386638;
+}
+.navbar .navbar-inner {
+background: #b6c931;
 }
 
+footer.footer {
+background: #386638;
+}
+
+#slide-pane h2 {
+font-size: 14px;
+color: #FFF;
+background-color: #386638;
+text-transform: none;
+}
+
+a:hover, a:focus {
+color: #3B49B3;
+text-decoration: underline;
+}
+
+a {
+color: #3B49B3;
+text-decoration: none;
+}
