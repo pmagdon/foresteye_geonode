@@ -12,22 +12,27 @@
     height: 100px;
     background: url(../img/logo.png) no-repeat;
 }
+nav.main-nav {
+	margin: 4px 18px 2px 0px;
+}
+
 nav.main-nav ul li a:hover {
-text-decoration: none;
-color: #F56C1F;
+	text-decoration: none;
+	font-weight: 400;
+	color: #F56C1F;
 }
 nav.main-nav ul li a {
-border: 0;
-color: #FFFFFF;
-display: block;
-float: right;
-text-transform: none;
-font-size: 16px;
-padding: 4px 17px;
+	border: 0;
+	color: #FFFFFF;
+	display: block;
+	float: right;
+	text-transform: none;
+	font-size: 16px;
+	padding: 4px 17px;
 }
 
 .span10 {
-width: 480px;
+	width: 480px;
 }
 
 
@@ -37,6 +42,8 @@ width: 480px;
 
 .place-right {
 	float: right;
+	width: 500px;
+	margin-top: 38px;
 }
 
 .span9 {
@@ -57,7 +64,7 @@ footer.footer {
 #slide-pane h2 {
 	font-size: 14px;
 	color: #FFF;
-	background-color: #b6c931;
+	background-color: #386638;
 	text-transform: none;
 }
 
