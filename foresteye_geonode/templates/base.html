@@ -37,7 +37,31 @@
             <div class="span9">
               <div class="nav-collapse pull-right">
                 <div class="pull-right">
-                  <ul class="nav pull-right account-bar">
+
+            </div>
+          </div>
+          <div class="row nav-box">
+            <div class="span10">
+              <nav class="main-nav">
+                <ul>
+                  <li id="nav_data">
+                    <a href="{% url "layer_browse" %}">{% trans "Layers" %}</a>
+                  </li>
+                  <li id="nav_maps">
+                    <a href="{% url "maps_browse" %}">{% trans "Maps" %}</a>
+                  </li>
+    
+                  {% if USE_DOCUMENTS %}
+                  <li id="nav_documents">
+                    <a href="{% url "documents_browse" %}">{% trans "Documents" %}</a>
+                  </li>
+                  {% endif %}
+
+                  {% block extra-nav %}{% endblock %}
+                </ul>
+              </nav>
+            </div> <!-- ./span10 -->
+                       <ul class="nav pull-right account-bar">
                     {% if user.is_authenticated %}
 
                       <li class="dropdown user">
@@ -96,35 +120,10 @@
 
                     {% endif %}
                   </ul>
-              </div>
               <form class="input-append  pull-right" action="{% url "search" %}" method="GET">
                 {# csrf_token #}
                 <input id="search" type="text" name="q"/>
               </form>
-            </div>
-          </div>
-          <div class="row nav-box">
-            <div class="span10">
-              <nav class="main-nav">
-                <ul>
-                  <li id="nav_data">
-                    <a href="{% url "layer_browse" %}">{% trans "Layers" %}</a>
-                  </li>
-                  <li id="nav_maps">
-                    <a href="{% url "maps_browse" %}">{% trans "Maps" %}</a>
-                  </li>
-    
-                  {% if USE_DOCUMENTS %}
-                  <li id="nav_documents">
-                    <a href="{% url "documents_browse" %}">{% trans "Documents" %}</a>
-                  </li>
-                  {% endif %}
-
-                  {% block extra-nav %}{% endblock %}
-                </ul>
-              </nav>
-            </div> <!-- ./span10 -->
-            
           </div><!-- /.row nav-box -->
 		  </div>		  
         </div> <!-- /.container -->
