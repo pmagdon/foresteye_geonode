@@ -36,9 +36,7 @@
                 <div class="pull-right">
                   <ul class="nav pull-right account-bar">
                     {% if user.is_authenticated %}
-                      <li class="user-avatar">
-                        {% avatar user 20 %}
-                      </li>
+
                       <li class="dropdown user">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                           {{ user.username }}
@@ -70,7 +68,7 @@
                       </li>
                     {% else %}
                       <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{% trans "Sign in" %}</a>
+                        <a href="#" class="dropdown-toggle login" data-toggle="dropdown">{% trans "Sign in" %}</a>
                         <ul class="dropdown-menu">
                           <li>
                             <form action="{% url "account_login" %}" method="post" class="sign-in">
@@ -92,10 +90,7 @@
                       <li class="navbar-text">{% trans "or" %}</li>
                       <li><a href="{% url "account_signup" %}">{% trans "Register" %}</a></li>
                       {% endif %}
-                      <li class="divider-v">|</li>
-                      <li class="actions">
-                        <a href="{% url "help" %}" rel="tooltip" title="help"><i class="icon-question-sign"></i></a>
-                      </li>
+
                     {% endif %}
                   </ul>
                 </div>
@@ -177,8 +172,8 @@
           {% get_current_language as LANGUAGE %}
           <form class="form-inline" action="/i18n/setlang/" method="post">
           {% csrf_token %}
-            <label>{% trans "Language" %}</label>
-            <select class="input span2" name="language" onchange="javascript:form.submit()">
+            
+            <select class="input span2 language" name="language" onchange="javascript:form.submit()">
               {% for lang in LANGUAGES %}
               <option value="{{ lang.0 }}" {% ifequal LANGUAGE_CODE lang.0 %} selected="selected"{% endifequal %}>
                 {{ lang.1 }}

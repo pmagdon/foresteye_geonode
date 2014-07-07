@@ -29,3 +29,22 @@ text-decoration: none;
 .btn-group>.btn, .btn-group>.dropdown-menu, .btn-group>.popover {
 font-size: 14px;
 }
+
+.language {
+background: transparent;
+color: white;
+margin-bottom: -20px;
+padding: 0;
+}
+
+.nav>li>a.login {
+background: #da4f49;
+border: 1px solid #a31616;
+font-size: .875em;
+font-weight: 600;
+margin-bottom: 8px;
+margin-top: 5px;
+margin-right: 0;
+padding: 3px 10px 2px;
+text-transform: none;
+}
