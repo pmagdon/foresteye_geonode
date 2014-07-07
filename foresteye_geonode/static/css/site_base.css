@@ -25,3 +25,7 @@ a {
 color: #3B49B3;
 text-decoration: none;
 }
+
+.btn-group>.btn, .btn-group>.dropdown-menu, .btn-group>.popover {
+font-size: 14px;
+}
