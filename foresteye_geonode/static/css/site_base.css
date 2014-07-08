@@ -154,3 +154,6 @@ word-wrap: break-word;
 aside .well h2 {
 font-size: 16px;
 }
+
+.x-viewport, .x-viewport body {
+margin: 18px 0 0 0;
