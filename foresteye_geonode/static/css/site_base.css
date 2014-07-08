@@ -126,6 +126,23 @@ a {
 background: #b6c931;
 }
 
+.btn-large {
+padding: 6px 12px;
+}
+
 .span12 {
 margin-top: 15px;
+}
+.span5, .span7 {
+	width:100%;
+}
+
+h2.page-title {
+color: #000;
+font-family: 'Lato',sans-serif;
+font-size: 30px;
+font-weight: 300;
+letter-spacing: .1em;
+text-transform: uppercase;
+word-wrap: break-word;
 }
