@@ -146,3 +146,11 @@ letter-spacing: .1em;
 text-transform: uppercase;
 word-wrap: break-word;
 }
+
+.well {
+	border: none;
+}
+
+aside .well h2 {
+font-size: 16px;
+}
