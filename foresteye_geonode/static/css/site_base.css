@@ -160,3 +160,11 @@ aside .well h2 {
 font-size: 16px;
 padding: 5px 15px 3px;
 }
+
+.pagination {
+font-weight: normal;
+}
+
+.pagination .pager {
+border-left: 0;
+}
