@@ -155,7 +155,6 @@ aside .well h2 {
 font-size: 16px;
 }
 
-.x-viewport, .x-viewport body {
-	margin: 18px 0 0 0 !important;
-    min-height: 90% !important;
-   
+#paneltbar {
+    margin-top: 117px !important;
+} 
