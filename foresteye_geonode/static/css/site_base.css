@@ -83,6 +83,9 @@ section.widget h2 {
 	border-bottom: 1px solid #ccc;
 	padding: 0px 11px 0px;
 	background: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
 }
 
 a:hover, a:focus {
