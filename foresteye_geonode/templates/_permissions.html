@@ -25,17 +25,17 @@
         {% trans "Any registered user" %}
       </label>
       <label class="radio">
-        <input type="radio" name="editmode" id="perms_edit_list" value="LIST">
+        <input type="radio" name="editmode" id="perms_edit_list" value="LIST" checked="checked">
         {% trans "Only the following users:" %}
       </label>
-      <input type="text" name="editusers" class="user-select" id="perms_edit_editusers" value="{{user.username}}" checked="checked">
+      <input type="text" name="editusers" class="user-select" id="perms_edit_editusers" value="{{user.username}}">
       </input>
     </div>
   </div>
   <div class="control-group">
     <label class="control-label"><strong>{% trans "Who can manage and edit this data?" %}</strong></label>
     <div class="controls">
-      <input type="text" name="manageusers" class="user-select" id="perms_edit_manageusers">
+      <input type="text" name="manageusers" class="user-select" id="perms_edit_manageusers" value="{{user.username}}">
       </input>
     </div>
   </div>

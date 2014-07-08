@@ -5,6 +5,14 @@
 	margin-bottom: 12px;
 }
 
+.content-wrap {
+background: #FFF;
+padding: 30px 0 0 20px;
+width: 980px;
+min-height: 400px;
+margin: 50px auto 30px;
+}
+
 .nav-box {
 	width: 750px;
 	background: #386638;
