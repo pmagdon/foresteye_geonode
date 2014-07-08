@@ -5,6 +5,7 @@
 }
 
 .nav-box {
+	width: 750px;
 	background: #386638;
 	float: right;
 	padding-top: 8px;
@@ -40,7 +41,7 @@ nav.main-nav ul li a {
 }
 
 .span10 {
-	width: 400px;
+	width: 350px;
 }
 
 .place-left {
@@ -112,10 +113,10 @@ a {
 }
 
 .btns a.btn-large {
-	font-size: 16px;
-	margin: 0 0 10px;
-	width: 160px;
-	font-weight:500;
+	font-size: 16px !important;
+	margin: 0 0 10px !important;
+	width: 160px !important;
+	font-weight:500 !important;
 }
 
 .btn {
