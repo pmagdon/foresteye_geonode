@@ -1,5 +1,13 @@
+.index-logo {
+    width: 920px;
+    height: 115px;
+    background: url(../img/header.jpg) no-repeat;
+}
+
 .nav-box {
 	background: #386638;
+	float: right;
+	padding-top: 8px;
 }
 .navbar .navbar-inner {
 	background: #b6c931;
@@ -19,7 +27,7 @@ nav.main-nav {
 nav.main-nav ul li a:hover {
 	text-decoration: none;
 	font-weight: 400;
-	color: #F56C1F;
+	color: #f7931e;
 }
 nav.main-nav ul li a {
 	border: 0;
@@ -27,14 +35,13 @@ nav.main-nav ul li a {
 	display: block;
 	float: right;
 	text-transform: none;
-	font-size: 16px;
-	padding: 4px 17px;
+	font-size: 14px;
+
 }
 
 .span10 {
-	width: 480px;
+	width: 400px;
 }
-
 
 .place-left {
 	float: left;
@@ -42,8 +49,7 @@ nav.main-nav ul li a {
 
 .place-right {
 	float: right;
-	width: 500px;
-	margin-top: 38px;
+	margin-top: 63px;
 }
 
 .span9 {
@@ -53,7 +59,7 @@ nav.main-nav ul li a {
 
 .nav-box {
 	background: #386638;
-	width: 500px;
+	width: 700px;
 	float: right;
 }
 
@@ -66,6 +72,11 @@ footer.footer {
 	color: #FFF;
 	background-color: #386638;
 	text-transform: none;
+}
+section.widget h2 {
+	font-size: 14px;
+	color: #FFF;
+	background-color: #386638;
 }
 
 a:hover, a:focus {
@@ -87,4 +98,30 @@ a {
 	color: b6c931;
 	margin-bottom: -20px;
 	padding: 0;
+}
+
+.hero-unit .intro {
+	float: left;
+	width: 100%;
+}
+
+.hero-unit .btns {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.btns a.btn-large {
+	font-size: 16px;
+	margin: 0 0 10px;
+	width: 160px;
+	font-weight:500;
+}
+
+.btn {
+background: #b6c931;
+}
+
+.span12 {
+margin-top: 15px;
 }
