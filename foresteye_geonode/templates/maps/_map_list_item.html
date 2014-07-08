@@ -17,7 +17,7 @@
         <p>{% trans "from" %} <a href="{% url "profile_detail" map.owner.username %}" rel="author">{{ map.owner }}</a> | {% trans "last modified" %}: {{ map.last_modified|timesince }}</p>
         <p class="abstract">{{ map.abstract }}</p>
         <ul class="nav stats">
-          <li><a href="{% url "map_detail" map.id %}"><strong>{{ map.popular_count }}</strong> {% trans "View" %}{{ map.popular_count }}</a></li>
+          <li><a href="{% url "map_detail" map.id %}"><strong>{{ map.popular_count }}</strong> {% trans "View" %}</a></li>
           <li><a href="{% url "map_detail" map.id %}#rate"><strong><span class="avg_rating" data-rating="{{ map_rating }}"> <span class="overall_rating"></span></span></strong>{% trans "Average rating" %} ({{num_votes}} {% trans "votes" %})</a></li>
         </ul>
       </div> <!-- /.meta -->
