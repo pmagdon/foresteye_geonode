@@ -2,6 +2,7 @@
     width: 920px;
     height: 115px;
     background: url(../img/header.jpg) no-repeat;
+	margin-bottom: 12px;
 }
 
 .nav-box {
@@ -55,12 +56,6 @@ nav.main-nav ul li a {
 
 .span9 {
 	width: 500px;
-	float: right;
-}
-
-.nav-box {
-	background: #386638;
-	width: 700px;
 	float: right;
 }
 
