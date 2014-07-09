@@ -11,14 +11,14 @@
     <dt>{% trans "License" %}</dt>
     <dd>{{ resource.license.name_long }} <a href="#license-more" data-toggle="collapse" data-target=".license-more"><i class="fa fa-info-circle"></i></a></dd>
     {% endif %}
-    <div class="license-more collapse">
+<!--     <div class="license-more collapse">
       {% for bullet in resource.license.description_bullets %}
         {{ bullet }}
       {% endfor %}
       {% if resource.license.url %}
         + For more info see <a href="{{ resource.license.url }}">{{ resource.license.url }}</a>.
       {% endif %}
-    </div>
+    </div> -->
 
     {% if resource.abstract %}
     <dt>{% trans "Abstract" %}</dt>
