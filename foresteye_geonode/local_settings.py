@@ -5,7 +5,7 @@ DEBUG = TEMPLATE_DEBUG = False
 DEBUG_STATIC = False
 
 SITENAME = 'GeoNode'
-SITEURL = '134.76.21.15'
+SITEURL = 'http://efforts-webgis.uni-goettingen.de'
 
 GEOSERVER_URL = SITEURL + 'geoserver/'
 

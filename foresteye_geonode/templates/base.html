@@ -116,9 +116,9 @@
                           </li>
                         </ul>
                       </li>
-                      {% if REGISTRATION_OPEN %}
-                      <li class="navbar-text">{% trans "or" %}</li>
-                      <li><a href="{% url "account_signup" %}">{% trans "Register" %}</a></li>
+                       {% if REGISTRATION_OPEN %}
+                     <!-- <li class="navbar-text">{% trans "or" %}</li>
+                     <li><a href="{% url "account_signup" %}">{% trans "Register" %}</a></li> -->
                       {% endif %}
 
                     {% endif %}
@@ -169,7 +169,7 @@
     <footer class="footer">
       <div class="container">
         <div class="pull-left">
-          Powered by <a href="http://foresteye.de"> ForestEye Research GmbH</a> | <em>{% trans "version" %} {{ VERSION }}</em> 
+          Powered by <a href="http://foresteye.de"> ForestEye Research GmbH</a> 
                     
         </div>
         <div class="pull-right">
