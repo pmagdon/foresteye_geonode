@@ -17,9 +17,10 @@
     <h1>Welcome to the WebGIS of <a href="http://www.uni-goettingen.de/en/310995.html">CRC 990</a></h1>
     <div class="hero-unit-content">
       <div class="intro">
-        <div class="index-logo"></div>        
+       <p>The EFForTS-WebGIS is a platform for exchanging spatial data among other CRC-990 researchers, for visualizing spatial data and to create maps which can be shared within the research groups or made publically available. With the new service we hope to provide an easy to use platform also for "non-GIS" experts to work with spatial data, to increase the data consistency of the CRC subprojects and to facilitate cooperation by visualizing where we work and what is observed.</p> 
+         <div class="index-logo"></div>        
       </div>
-      <div class="btns">
+       <div class="btns">
         <a class="btn btn-large" href="{% url "layer_browse" %}">
           {% trans "Explore Layers" %}
         </a>
@@ -30,8 +31,8 @@
 		<a href="{% url "data_upload" %}" class="btn btn-large">{% trans 'Upload Layers' %}</a>
 		<a href="{% url "new_map" %}" class="btn btn-large">{% trans 'Create a Map' %}</a>
 		{% endif %}
-      </div>
-    </div>
+      </div>      
+    </div> 
   </div>
   {% endblock %}
   {% block mainbody %}
