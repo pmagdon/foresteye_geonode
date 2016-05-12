@@ -1,30 +1,33 @@
 {% load account_tags %}
 Dear CRC-990 Member,
 
-as already announced the CRC-990 is now offering a new service -the EFFORST WebGIS- to its members for managing, sharing and visualizing geospatial data. You can visit the page using the following link:
+the  CRC-INF team is offering the EFFORST WebGIS spatial data infrastructure as a service to all its members for managing, sharing and visualizing geospatial data. You can visit the page using the following link:
 
 http://efforts-webgis.uni-goettingen.de
 
-If you want to get access to the data or upload data yourself you are invited to register yourself using the link below. By creating a new account you are accepting the terms of use as state below.
+If you want to get access to the data or upload data yourself you are need to register using the signup link below. Please note, that by creating a new account you are accepting the terms of use as state below.
 
 {{ signup_url }}
 
-If you have questions or encounter any difficulties when registering please contact us under:
+If you have questions or encounter any difficulties when registering please send a mail to:
 
-mailto:crc-webgis@foresteye.de
+pmagdon@gwdg.de
 
 With kind regards
 
 Dr. Paul Magdon
 
 --------------------------------------
-ForestEye Research GmbH
-Büsgenweg 5, 37077, Göttingen
-Sitz der Gesellschaft: Göttingen
-Amtsgericht: Göttingen
-HRB Nr.: 20 17 16
-UST-ID-Nummer: DE 280051506
---------------------------------------
+Dr. Paul Magdon
+*Research Associate*
+-Chair of Forest Inventory and Remote Sensing (AWF)-
+-Büsgenweg 5, 37077, Göttingen
+Burckhardt-Institute
+Faculty of Forest Sciences and Forest Ecology
+Georg-August-University Göttingen
+Phone +49 551 39 19402
+Fax +49 551 39 9787
+-------------------------------------
 
 #############################################################################################################################################
 TERMS OF USE OF THE CRC-WebGIS
