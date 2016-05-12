@@ -30,7 +30,7 @@
           <div class="row">
 		  <div class="place-left">
             <div class="span3">
-              <a href="{% url "home" %}"><span class="nav-logo"></span></a>
+              <a href="https://www.uni-goettingen.de/en/310995.html"><span class="nav-logo"></span></a>
             </div>  
 		   </div>
 		   <div class="place-right">
@@ -56,9 +56,14 @@
                     <a href="{% url "documents_browse" %}">{% trans "Documents" %}</a>
                   </li>
                   {% endif %}
+
+		  {% if user.is_authenticated %}
                   <li id="nav_people">
                     <a href="{% url "profile_browse" %}">{% trans "People" %}</a>
                   </li>
+		  {% endif %}
+
+
                   {% block extra-nav %}{% endblock %}
                 </ul>
               </nav>
